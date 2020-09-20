@@ -1,11 +1,11 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from 'gatsby';
+import React from 'react';
 
 interface Props {
-  siteTitle: string
+  siteTitle: string;
 }
 
-const Header: React.FC<Props> = ({ siteTitle = "" }: Props) => (
+const Header: React.FC<Props> = ({ siteTitle = '' }: Props) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -32,6 +32,6 @@ const Header: React.FC<Props> = ({ siteTitle = "" }: Props) => (
       </h1>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;
