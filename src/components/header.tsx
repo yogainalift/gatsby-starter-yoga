@@ -5,7 +5,7 @@ interface Props {
   siteTitle: string
 }
 
-const Header: React.FC<Props> = ({ siteTitle = "" }) => (
+const Header: React.FC<Props> = ({ siteTitle = "" }: Props) => (
   <header
     style={{
       background: `rebeccapurple`,
