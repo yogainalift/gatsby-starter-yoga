@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { RouteComponentProps } from '@reach/router';
+import Layout from '../components/layout';
 
 type Props = RouteComponentProps<{
   results: number | undefined;
@@ -14,8 +15,8 @@ export const RandomResults: React.FC<Props> = ({ results = 1 }: Props) => {
   }, [results]);
 
   return (
-    <div>
+    <Layout>
       <pre>{JSON.stringify(person, null, 2)}</pre>
-    </div>
+    </Layout>
   );
 };
