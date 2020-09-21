@@ -9,7 +9,7 @@ This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using:
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, using the Redux-Toolkit Typescript Starter.
+    Use the Gatsby CLI to create a new site:
 
     ```shell
     gatsby new my-site-name https://github.com/yogainalift/gatsby-starter-yoga
