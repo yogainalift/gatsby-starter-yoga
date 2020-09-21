@@ -5,7 +5,7 @@ type Props = RouteComponentProps<{
   results: number | undefined;
 }>;
 
-export const RandomPerson: React.FC<Props> = ({ results = 1 }: Props) => {
+export const RandomResults: React.FC<Props> = ({ results = 1 }: Props) => {
   const [person, setPerson] = useState();
   useEffect(() => {
     fetch(`https://randomuser.me/api?results=${results}`)
