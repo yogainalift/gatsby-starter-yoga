@@ -1,10 +1,4 @@
-# gatsby-starter-yoga
-
-```
-gatsby new yoga-gatsby https://github.com/yogainalift/gatsby-starter-yoga
-```
-
-# Gatsby Typescript Tailwind Twin.Macro Styled-Component Starter
+# Gatsby Starter Yoga
 
 This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using:
 
