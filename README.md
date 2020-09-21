@@ -5,7 +5,17 @@
 This is a starter for [Gatsby](https://www.gatsbyjs.org/) websites using:
 
 - [Typescript](https://www.typescriptlang.org/)
-- [Router](https://reach.tech/router/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Prettier](https://prettier.io/)
+
+Plugins used:
+- gatsby-plugin-react-helmet
+- gatsby-plugin-typescript
+- gatsby-source-filesystem
+- gatsby-image
+- gatsby-plugin-sharp
+- gatsby-transformer-sharp
+- gatsby-plugin-postcss
 
 ## Quick start
 
